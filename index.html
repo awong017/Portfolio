@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link href="main.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <main role="main">
@@ -14,20 +14,53 @@
             <h1>Adam Wong</h1>
             <nav role="navigation">
                 <ul>
-                    <li>Bio</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li class="bioLink">Bio</li>
+                    <li class="projectsLink">Projects</li>
+                    <li class="contactLink"> Contact</li>
                 </ul>
             </nav>
         </header>
-        <div class="meat">
-            <section>Headline</section>
-            <section>Bio</section>
-            <section>Project 1</section>
-            <section>Project 2</section>
-            <section>Project 3</section>
-            <section>Project 4</section>
-            <footer role="footer">Footer</footer>
+        <div class="content">
+            <section class="headline">Hi, my name is Adam. I am a front end web developer.</section>
+            <section class="bio">
+              <p>I found my passion for coding while working as an Industrial Engineering Technician 
+              after acquiring my Mechanical Engineering degree. The task that I enjoyed doing the most was basic C# programming in an 
+              ERP software and debugging configurators. After talking to many of my developers friends, I learned that my task was similar 
+              to those of a developer, but on a more elementary level. From then on I decided to make a career change and enter the Full 
+              Stack Web Development program at Thinkful. As a person that takes pleasure in seeing physical progress, web development brings 
+              me alot of joy when I look upon the finish product.</p>
+
+              <p>When I'm not hacking away on my keyboard, one of my favorite hobbies is automotive modification
+              and maintenance. There's nothing like fine tuning the suspension of a car and going out for a spirited drive. 
+              Traveling is definitely up there in my list of favorite things to do as well. Being immersed in a variety of 
+              cultures is truly a unique and satisfying experience.</p>
+              </section>
+            <section class="projects">
+              <div class="project-one">
+                <h2>Import Car Quiz</h2>
+                  <img src="\Users\awong\Thinkful\icons\import-car-quiz-screenshot-20%.png" alt="Quiz App" class="image">
+                  <p><a class="git-link" href="https://github.com/awong017/import-quiz-app">Repo</a>
+                  <span>| <a class="git-link" href="https://awong017.github.io/import-quiz-app/">Live</a></span></p>
+                  <img src="C:\Users\awong\Thinkful\icons\html-icon.png" alt="html logo" class="logo">
+                  <img src="C:\Users\awong\Thinkful\icons\css-icon.png" alt="css logo" class="logo">
+                  <img src="C:\Users\awong\Thinkful\icons\js-icon.png" alt="js logo" class="logo">
+                  <img src="C:\Users\awong\Thinkful\icons\jquery-icon.png" alt="jquery logo" class="logo">
+                  <p class="project-one-description">This was my first project during my Full Stack Flex program. The main
+                     purpose of the project was to successfully implement aspects of JQuery in a basic quiz application. In the case of my 
+                     quiz, the quiz tests the users knowledge on import automobiles. The user answers a series of 10 questions while being 
+                     able to see the current score as well as keep track of what question her or she is on. Once completed, a summary of 
+                     the user's score is rendered and the user has the ability to restart the quiz.</p>
+                </div>
+            </section>
+            <section class="contact">
+              <p>If you have any questions about my projects or wish to get in contact with me, you can contact me via email at <a href="mailto:awong52089@gmail.com">awong52089@gmail.com</a>.
+              I would love to speak with you.</p>
+              </section>
+            <footer role="footer">
+              <a href="https://www.linkedin.com/in/adam-wong-785279122/"><img class="icon" src="\Users\awong\Thinkful\icons\linkedin-icon.png" alt="Linkedin icon"></a>
+              <a href="https://github.com/awong017"><img class="icon" src="\Users\awong\Thinkful\icons\github-icon.png" alt="Github icon"></a>
+              <a href="mailto:awong52089@gmail.com"><img class="icon" src="\Users\awong\Thinkful\icons\email-icon.png" alt="Email icon"></a>
+            </footer>
         </div>
     </main>
   </body>
