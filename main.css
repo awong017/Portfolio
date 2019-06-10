@@ -13,8 +13,13 @@ header {
 
 h1 {
     margin-left: 40px;
-    background-color: white;
-    color: black;
+}
+
+.headline {
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 nav {
@@ -30,64 +35,120 @@ ul {
 }
 
 li {
+    font-size: 16px;
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 30%;
 }
 
-.meat {
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
+.content {
     display: flex;
     flex-direction: column;
 }
 
-section {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: white solid 1px;
-    background-color: lightgrey;
-    color: gray;
-    height: 150px;
-    font-size: 125%;
-  }
-
-footer {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: white solid 1px;
-    background-color: lightgrey;
-    color: gray;
-    height: 100px;
-    font-size: 125%;
+.headline {
+    font-size: 20px;
 }
 
-@media screen and (max-width: 960px) {
+.bio {
+    font-size: 20px;
+}
 
-header {
-    float: none;
+.contact {
+    font-size: 20px;
+}
+
+section {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    color: gray;
+  }
+
+.projects {
+    display: none;
+    text-align: center;
     margin-top: 100px;
+} 
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.project-one-description {
+    text-align: left;
+}
+
+.contact {
+    margin-top: 400px;
+    text-align: center;
+    display: none;
+} 
+
+  
+footer {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: auto;
+    text-align: center;
     width: 100%;
 }
 
-h1 {
-    margin-left: auto;
-    text-align: center;
+.icon {
+    margin-top: 10px;
+    padding: 20px;
 }
 
-nav {
-    margin-top: 20px;
+.icon:hover {
+    cursor: pointer;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+@media screen and (max-width: 960px) {
+    
 
-li {
-    list-style: none;
-    display: inline;
-}
+    header {
+        float: none;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%
+    }
+
+    .headline {
+        margin-top: 100px;
+        text-align: center;
+        margin-left: auto;
+    }
+
+
+    ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    .content {
+        display: block;
+        font-size: 16px;
+    }
+
+    .contact {
+        margin-top: 100px;
+        display: none;
+        text-align: left;
+        color: gray;
+    }
 
 }
