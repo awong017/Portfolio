@@ -89,6 +89,27 @@ section {
 
 .project-description {
     text-align: left;
+    padding: 10px 20px;
+}
+
+.project-one {
+    margin-top: 50px;
+}
+
+.project-two {
+    margin-top: 50px;
+}
+
+.project-three-image-1 {
+    display: inline-block;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.project-three-image-2 {
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .contact {
