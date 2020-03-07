@@ -82,7 +82,7 @@ section {
     display: none;
     text-align: center;
     margin-top: 100px;
-    margin-left: 525px;
+    margin-left: 528px;
 } 
 
 .image {
@@ -219,6 +219,11 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+
+    header {
+        margin-top: 50px;
+    }
+    
     .headline {
         font-size: 16px;
     }
