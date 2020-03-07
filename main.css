@@ -60,12 +60,14 @@ li:hover {
     font-size: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: 500px;
 }
 
 .contact {
     font-size: 20px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: 500px;
 }
 
 section {
@@ -80,6 +82,7 @@ section {
     display: none;
     text-align: center;
     margin-top: 100px;
+    margin-left: 525px;
 } 
 
 .image {
@@ -174,8 +177,8 @@ footer {
 
     .bio {
         font-size: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .content {
@@ -185,14 +188,19 @@ footer {
     .contact {
         font-size: 20px;
         margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
         display: none;
         text-align: center;
         color: gray;
     }
 
-    section {
+    .projects {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    section {
         width: initial;
     }
 
